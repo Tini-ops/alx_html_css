@@ -1,1 +1,27 @@
-"P"
+.secondheading, .seconddescription {
+    text-align: center;
+    
+
+}
+.secondheading{
+    margin-top: 6%;
+}
+
+.seconddescription {
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+    margin-top: 2%;
+    margin-bottom: 13%;
+}
+
+.secondicons {
+    display: flex;
+    /*justify-content: space-between;*/
+    gap: 5%;
+    margin-left: 15%;
+}
+
+.icon {
+    width: 18%;
+    display: flexbox;
+}
