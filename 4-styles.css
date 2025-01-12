@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    background-color: #0D1B2A;
+    height: 40vh;
+    background-size: contain;
+    position: relative;   
+}
+
+.logo {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 200px;
+}
+
+.copyright {
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    border-radius: 75%;
+}
+
+.icons {
+    
+    display: flex;
+    gap: 5%;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 70%;
+    
+}
